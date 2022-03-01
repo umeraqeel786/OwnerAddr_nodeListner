@@ -47,5 +47,5 @@ it Will Return total Owner Address from node script (Client Side)
 
 `$ node ./OwnerAddr_Scripts/totaladdr_fromContract.js`
 
-it Will Return Only total Owner Address for calling the smart contract function
+it Will Return total Owner Address for calling the smart contract function
 
