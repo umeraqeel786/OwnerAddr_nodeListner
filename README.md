@@ -8,12 +8,10 @@ $ cd OwnerAddr_nodeListner
 $ npm install 
 ```
 
-### 3. Start Ganache
-
-### 4. Smart Contracts
+### 3. Smart Contracts
 `Deploy smart contract on rinkeby testnet from truffle or directly from remix`
 
-### 5. EventListner Script
+### 4. EventListner Script
 script/EventListner.js
 
 Add your deploy nft contract address.
@@ -36,7 +34,7 @@ With status of NFTs ( from Unallocated to Allocated ) and their ownerAddresses (
 
 
 
-### 6. Run Script OwnerAddress
+### 5. Run Script OwnerAddress
 
 `$ node ./OwnerAddr_Scripts/onlyTransferAddr.js`
 
