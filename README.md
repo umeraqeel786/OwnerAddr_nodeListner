@@ -13,13 +13,20 @@ $ npm install
 ### 4. Smart Contracts
 `Deploy smart contract on rinkeby testnet from truffle or directly from remix`
 
-### 5. Run EventListner Script
-Script/EventListner.js
-Add your deploy address
-Add rinkeby provide link 
+### 5. EventListner Script
+script/EventListner.js
+
+Add your deploy nft contract address.
+
+Add rinkeby provided CLIENT_URL.
+
 Setup and connect Mongodb.
-First run the create document function that will fill the database table
+
+First run the create document function that will fill the database table.
+
 then run the update document function this will automatically update the database that you created previously if the token is transferd to someone else.
+
+With status of NFTs ( from Unallocated to Allocated ) and their ownerAddresses (from previousOwner to NewOwner).
 
 `$ node ./scripts/EvenLitner.js`
 
