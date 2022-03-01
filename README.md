@@ -12,6 +12,10 @@ $ npm install
 `Deploy smart contract on rinkeby testnet from truffle or directly from remix`
 
 ### 4. EventListner Script
+here we have two scripts 
+EventListner.js and Past_query
+Kindly use different mongodb connection for both scripts. 
+
 script/EventListner.js
 
 Add your deploy nft contract address.
