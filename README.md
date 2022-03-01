@@ -4,7 +4,7 @@
 
 ### 2. Install Dependencies:
 ```
-$ cd OwnerAddress_NodeListner
+$ cd OwnerAddr_nodeListner
 $ npm install 
 ```
 
